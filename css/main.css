@@ -1,12 +1,24 @@
 html {
-  box-sizing: border-box;
-  font-family: "Overpass", sans-serif;
+  font-family: Overpass, sans-serif;
   color: #fff;
-  background-color: #ff9500;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+.bottom {
+  border-bottom: solid 3px rgba(255, 255, 255, .5);
 }
 
 .btn {
   color: #fff;
+  border-color: #fff;
+}
+
+.btn:hover {
+  color: #ff9500;
+  background-color: #fff;
   border-color: #fff;
 }
 
@@ -16,4 +28,11 @@ html {
 
 @media only screen and (min-width: 60em) {
 
+  .bottom {
+    border: none;
+  }
+
+  .left {
+    border-left: solid 3px rgba(255, 255, 255, .5);
+  }
 }
